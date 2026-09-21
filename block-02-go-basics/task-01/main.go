@@ -7,7 +7,7 @@ func main() {
 	fmt.Scan(&name)
 	var age int
 	fmt.Scan(&age)
-	fmt.Println("Hello,", name, "!")
-	fmt.Print("You are", age, "years old.")
+	fmt.Printf("Hello, %s!\n", name)
+	fmt.Print("You are ", age, " years old.")
 
 }
