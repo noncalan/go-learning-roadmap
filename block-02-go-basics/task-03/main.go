@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	for i := 1; i < 11; i++ {
+	for i := 10; i > 0; i-- {
 		fmt.Println(i)
 	}
 }
